@@ -39,7 +39,7 @@
 
     static void Main(string[] args)
     {
-        int[] array = CreaterArray(10);
+        int[] array = CreaterArray(new Random().Next(3, 30));
         WriteArray(array);
         MultipleTwoNumber(array);
     }
